@@ -17,8 +17,8 @@ go run .\cmd\app\main.go .\cmd\app\application.go
 
 ## AWS CLI commands
 
-List all queues
-### --endpoint-url=http://localhost:4566 sqs list-queues
+### List all queues
+aws --endpoint-url=http://localhost:4566 sqs list-queues
 
 ### List queue attributes
 
